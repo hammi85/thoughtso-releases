@@ -5,6 +5,27 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+            <title>Version 1.8.0</title>
+            <description><![CDATA[
+                <ul>
+                    <li>Fix local model thinking/reasoning leakage (Qwen3.5 additionalContext)</li>
+                    <li>Redesigned settings into card-based UI with modular views</li>
+                    <li>Unified design language across meetings views</li>
+                    <li>Local LLM quality test harness</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 19 Mar 2026 12:00:00 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/hammi85/thoughtso-releases/releases/download/v1.8.0/ThoughtSo-1.8.0.dmg"
+                sparkle:version="3"
+                sparkle:shortVersionString="1.8.0"
+                sparkle:edSignature="98QWUVPr/kFU/VGWWhRIkLaUTpTW/KWdzDcBkc3gHWM/OYMPMS0ci96S4cmXsV3L+VTy+lIOyGVVDkvZ+rS2BQ=="
+                length="40332259"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 1.7.1</title>
             <description><![CDATA[
                 <ul>
