@@ -20,7 +20,7 @@
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <enclosure
                 url="https://github.com/hammi85/thoughtso-releases/releases/download/v1.9.0/ThoughtSo-1.9.0.dmg"
-                sparkle:version="4"
+                sparkle:version="5"
                 sparkle:shortVersionString="1.9.0"
                 sparkle:edSignature="e1XXcrQjQI/uMfSN4TvILOEQB1maPL1JCh3qzPuN6Lxzn4x/vgyDGNy8NIxiKM/np5Iu++mIp6SclXcGA91PBA=="
                 length="18411656"
