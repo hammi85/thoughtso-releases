@@ -5,6 +5,29 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+            <title>Version 1.9.0</title>
+            <description><![CDATA[
+                <ul>
+                    <li>Unified recording view: MeetingEditorView is now used during recording (replaces LiveMeetingView)</li>
+                    <li>Recording banner with pulsing indicator, elapsed time, and stop button</li>
+                    <li>Live transcript streams directly into Notes tab during recording</li>
+                    <li>Prep, Notes, and Outcomes tabs accessible during recording</li>
+                    <li>Auto-navigation to editor when recording starts (including from hotkey)</li>
+                    <li>Short recording cleanup: skeleton meetings discarded for &lt;5s recordings</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sun, 23 Mar 2026 12:00:00 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/hammi85/thoughtso-releases/releases/download/v1.9.0/ThoughtSo-1.9.0.dmg"
+                sparkle:version="4"
+                sparkle:shortVersionString="1.9.0"
+                sparkle:edSignature="e1XXcrQjQI/uMfSN4TvILOEQB1maPL1JCh3qzPuN6Lxzn4x/vgyDGNy8NIxiKM/np5Iu++mIp6SclXcGA91PBA=="
+                length="18411656"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 1.8.0</title>
             <description><![CDATA[
                 <ul>
