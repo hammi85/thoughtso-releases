@@ -5,6 +5,32 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+            <title>Version 1.9.5</title>
+            <description><![CDATA[
+                <h3>Recording reliability — duplicate-stop fix</h3>
+                <p>Critical fix for a 1.9.1 regression where clicking Stop twice could overwrite a recorded meeting with an empty result.</p>
+                <ul>
+                    <li>Explicit meeting lifecycle (idle/starting/recording/stopping/processing) with sessionID tracking — duplicate stops are no-ops</li>
+                    <li>Capture audio is staged in <code>~/Documents/ThoughtSo/MeetingAudio/&lt;id&gt;/</code> before processing so it survives crashes</li>
+                    <li>Recording-critical mode pauses KB indexing, workspace reparse, live insights, and Command Center LLM while a meeting captures</li>
+                    <li>Capture-health telemetry on mic + system audio; silent dictation now skips STT and shows a clear mic warning</li>
+                    <li>Partial captures are processed (mic-only or system-only) instead of failing entirely</li>
+                    <li>AudioRecorder purpose split (dictation vs meeting) with distinct publish throttles</li>
+                    <li>Bigger default main window (1280×820, min 960×640); cross-meeting chat hidden while retrieval is rebuilt</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 29 Apr 2026 20:00:00 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/hammi85/thoughtso-releases/releases/download/v1.9.5/ThoughtSo-1.9.5.dmg"
+                sparkle:version="10"
+                sparkle:shortVersionString="1.9.5"
+                sparkle:edSignature="d/qvddIjjCohDc64hKsgC1SUcXBc8Dw6Y3CqqL+N4+2dMo1/OQOhxvH/y7DbK7VufXEVT+3c3pAkrQKhg079CQ=="
+                length="22557522"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 1.9.0</title>
             <description><![CDATA[
                 <ul>
