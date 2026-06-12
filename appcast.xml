@@ -5,6 +5,31 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+            <title>Version 2.0.0</title>
+            <description><![CDATA[
+                <h3>Live Meeting Transcription</h3>
+                <p>See the conversation as it happens — fully on-device.</p>
+                <ul>
+                    <li>Live rolling transcript in the meeting view while recording: your voice labeled "You", everyone else "Others"; first text ~8s after speech, updates every ~6s</li>
+                    <li>Floating transcript window: movable, resizable, pinnable above full-screen Zoom/Meet on any Space; auto-open via menu bar &rarr; "Live Transcript Window"</li>
+                    <li>Post-meeting, the live transcript is replaced automatically by the full speaker-diarized version</li>
+                    <li>Crash-safe: live transcript persisted every 30 seconds</li>
+                    <li>Echo protection on speakers: remote voices bleeding into the mic are deduplicated</li>
+                    <li>Pure add-on to recording — live transcription failures never affect the meeting recording</li>
+                </ul>
+            ]]></description>
+            <pubDate>Thu, 12 Jun 2026 18:30:00 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/hammi85/thoughtso-releases/releases/download/v2.0.0/ThoughtSo-2.0.0.dmg"
+                sparkle:version="11"
+                sparkle:shortVersionString="2.0.0"
+                sparkle:edSignature="eSS9MQRbWwWl69cOXE8tQwo5abv3R5e6Ivg5xIj4/kaFCK7xkpR9R4ZGHlk3sJMnZ9/Qm1qule0IVCCAfJczBw=="
+                length="25964907"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 1.9.5</title>
             <description><![CDATA[
                 <h3>Recording reliability — duplicate-stop fix</h3>
