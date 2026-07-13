@@ -5,6 +5,36 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+            <title>Version 2.1.0</title>
+            <description><![CDATA[
+                <h3>Visual Dictation &amp; Screenshots</h3>
+                <p>Screenshots are now first-class citizens — while dictating and everywhere else.</p>
+                <ul>
+                    <li>Visual Dictation (experimental): press the screenshot shortcut while dictating and the capture is pasted inline into your dictated text, exactly where you took it</li>
+                    <li>ThoughtSo takes over the macOS screenshot shortcuts while it runs: &#8984;&#8679;4 selects a region, &#8984;&#8679;3 captures the display under your pointer</li>
+                    <li>Screenshots land straight on your clipboard — no floating thumbnail, no Desktop files; perfect with a clipboard manager</li>
+                    <li>Prefer the macOS behavior? One toggle in Settings &rsaquo; Recording &rsaquo; Screenshots hands the shortcuts back</li>
+                    <li>New onboarding step explaining the screenshot workflow</li>
+                </ul>
+                <h3>Reliability</h3>
+                <ul>
+                    <li>Notes editor rebuilt on a solid foundation</li>
+                    <li>Meeting history hardened against data loss; sync protocol fixes</li>
+                    <li>Live transcript ordering fixes (capture-time timestamps)</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 13 Jul 2026 07:59:01 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/hammi85/thoughtso-releases/releases/download/v2.1.0/ThoughtSo-2.1.0.dmg"
+                sparkle:version="12"
+                sparkle:shortVersionString="2.1.0"
+                sparkle:edSignature="ySTWlG7A/BbaWgj3RdLh5rPWObiU3zA7MzGbYnw1JepScit1DK++ULLAZaTbXRwU4B02ZN51DRr8MyrbLyKuBQ=="
+                length="27820618"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.0.0</title>
             <description><![CDATA[
                 <h3>Live Meeting Transcription</h3>
