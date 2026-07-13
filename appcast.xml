@@ -5,6 +5,30 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+            <title>Version 2.1.1</title>
+            <description><![CDATA[
+                <h3>Screenshot Reliability &amp; Permissions</h3>
+                <ul>
+                    <li>Clear permission guidance: pressing the screenshot shortcut without Screen Recording access now shows a notification that opens System Settings directly</li>
+                    <li>Settings &rsaquo; Recording &rsaquo; Screenshots shows live permission status (Screen Recording and Accessibility) with one-click access to grant them</li>
+                    <li>Screenshots taken right before stopping a dictation are no longer lost</li>
+                    <li>Copying something yourself while ThoughtSo is pasting no longer loses your clipboard content</li>
+                    <li>Screenshots always land at the correct position in dictated text, even when captures finish out of order</li>
+                    <li>ThoughtSo's own recording overlay no longer appears in captured screenshots</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 13 Jul 2026 21:01:09 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/hammi85/thoughtso-releases/releases/download/v2.1.1/ThoughtSo-2.1.1.dmg"
+                sparkle:version="13"
+                sparkle:shortVersionString="2.1.1"
+                sparkle:edSignature="A4vJIkOWqO7GczV4V5ZAuvo9HFYItLqluQYnP8Q4VK05NWVAhci+ZgwPxqEXwX82g6+k9TzmIMasAP+SPxwzDw=="
+                length="27845128"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.1.0</title>
             <description><![CDATA[
                 <h3>Visual Dictation &amp; Screenshots</h3>
