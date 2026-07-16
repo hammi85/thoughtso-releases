@@ -5,6 +5,28 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+            <title>Version 2.1.2</title>
+            <description><![CDATA[
+                <h3>Screenshot Reliability &amp; System Health</h3>
+                <ul>
+                    <li>System Health window (menu bar &rsaquo; More &rsaquo; System Health&hellip;): live status of every permission and prerequisite &mdash; Accessibility, Screen Recording, Microphone, Notifications, Secure Keyboard Entry, hotkey event tap, shortcut conflicts, app location &mdash; plus a built-in log viewer</li>
+                    <li>Screenshots are also saved as PNG files to a folder on your Desktop (configurable in Settings &rsaquo; Recording)</li>
+                    <li>Granting Accessibility while ThoughtSo runs now activates the shortcuts within seconds &mdash; no restart needed</li>
+                    <li>Shortcut conflicts and disabled screenshot takeover are reported in logs instead of failing silently</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 16 Jul 2026 14:00:00 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/hammi85/thoughtso-releases/releases/download/v2.1.2/ThoughtSo-2.1.2.dmg"
+                sparkle:version="14"
+                sparkle:shortVersionString="2.1.2"
+                sparkle:edSignature="CG98WZVK+8cX2vlWz994jPeuzi71OF6faYfr0cLZcy2rUmaYvIATx7UCkDit/No3HczVBn6/2EoMh16c3mKbBA=="
+                length="27909847"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.1.1</title>
             <description><![CDATA[
                 <h3>Screenshot Reliability &amp; Permissions</h3>
