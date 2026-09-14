@@ -5,6 +5,40 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+            <title>Version 2.2.0</title>
+            <description><![CDATA[
+                <h3>ThoughtSo 2.2.0</h3>
+                <ul>
+                    <li>Redesigned app: a calm Home with Start dictation, Record meeting, Recent items and your next meeting; History as a chronological feed with times in the gutter, expand in place, Improved/Original and one Copy button; Meetings with Today and All meetings (This week, Last week, Earlier), a featured next meeting with its briefing, and a meeting record that reads Summary, Decisions, Next steps with one pencil per section; Insights with an honest typing-time comparison and the conversations you can return to; Settings reorganised into General, Dictation, Meetings, Privacy &amp; Storage with a collapsed Advanced group and search.</li>
+                    <li>Command Center (Option+E) opens as a compact palette with preset chips, then shows Original and Result side by side; Copy is the primary action, Replace selection only appears for an editable selection and names the app; Refine result works on the current draft.</li>
+                    <li>Live transcript window gets a manual &quot;AI snapshot&quot; of the current discussion, You/Others attribution, search, Refresh/Back to live, Copy as Markdown and Ask bound to the exact question; closing the window never stops the recording.</li>
+                    <li>Meeting recording starts faster: the live speech model stays resident and is warmed at launch and before calendar meetings, the recording indicator appears before the calendar lookup, microphone and system audio open together, and a meeting started while the previous one is still processing gets live text immediately.</li>
+                    <li>When the selected meeting app is not running, recording captures all system audio and says so, instead of failing.</li>
+                    <li>Deleting a meeting keeps it deleted after relaunch; recovery only restores meetings that were interrupted mid-recording.</li>
+                    <li>Switching between History and Meetings no longer stalls on large histories (lazy rows, duplicate records removed, search precomputed).</li>
+                    <li>Settings opens on General without delay; Text Processing shows all fields even when Improve is off; the meeting app picker shows the saved app immediately.</li>
+                    <li>Speaker detection runs on the offline Community-1 engine, and can be re-run on a finished meeting from the transcript, which reprojects the labels onto the current text and shows a status caption.</li>
+                    <li>Speaker detection now covers meetings up to 60 minutes, and records an outcome for every attempt instead of failing quietly.</li>
+                    <li>Live transcript no longer loses the opening words of a meeting, and quiet word onsets reach the recognizer through a pre-roll buffer.</li>
+                    <li>Live transcript breaks rows on sentences rather than mid-thought, keeps numbers intact, closes a speaker&#x27;s row when the other channel takes a turn, and restores words a confidence filter had dropped.</li>
+                    <li>Live transcript only deletes microphone echo when the audio supports it, and stopping a meeting during startup no longer leaves a stale pane.</li>
+                    <li>Word timestamps from Parakeet no longer stretch past the audio they came from.</li>
+                    <li>The System Health window stops hammering the logging daemon while open, and reports microphone status and hotkey collisions correctly.</li>
+                    <li>About gains a third-party licenses and acknowledgements sheet.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 14 Sep 2026 14:59:44 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/hammi85/thoughtso-releases/releases/download/v2.2.0/ThoughtSo-2.2.0.dmg"
+                sparkle:version="15"
+                sparkle:shortVersionString="2.2.0"
+                sparkle:edSignature="D4SsFQwRGeuPSkkK10qjzFoT8CIE0GFftUKaNIpHLCW/pcnmibke4IekuRHZrj1+Rufpa6v8wG3YS2px4s86CA=="
+                length="27277257"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.1.2</title>
             <description><![CDATA[
                 <h3>Screenshot Reliability &amp; System Health</h3>
