@@ -5,6 +5,29 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+            <title>Version 2.2.1</title>
+            <description><![CDATA[
+                <h3>ThoughtSo 2.2.1</h3>
+                <ul>
+                    <li>Live transcript: the AI snapshot Update now shows &quot;Loading model&quot; and &quot;Summarizing&quot; phases with elapsed time, allows four minutes for a cold model load, says plainly when another AI task or low memory blocks it, retries once, pre-warms the model once live transcription is running, and logs every attempt so failures can be diagnosed.</li>
+                    <li>A recorded meeting keeps its captured start time and length; a calendar-bound meeting no longer takes the event&#x27;s planned start and duration after a calendar refresh.</li>
+                    <li>The meeting note keeps being written during a recording (two-second debounce), and the Meetings list shows &quot;Recording&quot; rather than &quot;Processing&quot; for the active meeting.</li>
+                    <li>When the selected meeting app is not running, the notice names the app for all supported apps, an error shown during a recording no longer flashes the overlay, and crash recovery keeps the fallback source information.</li>
+                    <li>Settings: the layout CPU-budget test measures the minimum of three runs and skips on a loaded machine.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 14 Sep 2026 23:01:17 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/hammi85/thoughtso-releases/releases/download/v2.2.1/ThoughtSo-2.2.1.dmg"
+                sparkle:version="16"
+                sparkle:shortVersionString="2.2.1"
+                sparkle:edSignature="iCnqGMuZSwQ+YVk7qTu4C5DtRPcjWJutw5bRQlRvRBflemNaKgLpwI2t6ysHzrcimjduAhWPemouPFoCfFTLBA=="
+                length="27355990"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.2.0</title>
             <description><![CDATA[
                 <h3>ThoughtSo 2.2.0</h3>
