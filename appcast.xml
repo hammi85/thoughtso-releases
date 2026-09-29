@@ -5,6 +5,35 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+            <title>Version 2.3.0</title>
+            <description><![CDATA[
+                <h3>ThoughtSo 2.3.0</h3>
+                <ul>
+                    <li>Speaker detection: NVIDIA Nemotron 3 is the new default engine after a meeting. It tracks up to eight speakers; on a 17-minute test meeting it found the three remote speakers with no &quot;Speaker ?&quot; lines, where the previous engine left 15. Its model (about 190 MB) downloads in the background after launch; until it is on disk meetings use the previous engine (pyannote community-1), which stays selectable in Settings &gt; Meetings.</li>
+                    <li>A failed &quot;Re-run speaker detection&quot; now says so instead of leaving the labels unchanged without a word.</li>
+                    <li>Reusing the live transcript after Stop is available but stays off by default until its transcript keeps sentence breaks.</li>
+                    <li>Meeting analysis makes one local model call per transcript chunk for summary, action items and decisions together.</li>
+                    <li>Saving the meeting history no longer waits on the main thread (one of the beachball causes; more fixes follow).</li>
+                    <li>During a recording, rewriting the meeting&#x27;s own note no longer reloads the whole meeting list every few seconds, which kept the app busy for the entire meeting.</li>
+                    <li>Models are loaded and unloaded by one owner, so memory drops after a meeting instead of staying high.</li>
+                    <li>Recovery audio of a successfully processed meeting can be removed after three days, once confirmed in Settings.</li>
+                    <li>Optional separate transcription of microphone and meeting audio with duplicate removal (Settings &gt; Meetings).</li>
+                    <li>Every meeting writes a processing trace to Diagnostics so slow steps can be found.</li>
+                    <li>FluidAudio 0.15.5 to 0.17.4.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 29 Sep 2026 05:08:54 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/hammi85/thoughtso-releases/releases/download/v2.3.0/ThoughtSo-2.3.0.dmg"
+                sparkle:version="17"
+                sparkle:shortVersionString="2.3.0"
+                sparkle:edSignature="ARM5oyeI4X6niMkSlRWazv6nlOC5hNvmaDfVLEuMKrObcJUxeVJ+S3RTYpzY/obkESe/OoTxID+N1bomrVGqCg=="
+                length="29739440"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.2.1</title>
             <description><![CDATA[
                 <h3>ThoughtSo 2.2.1</h3>
