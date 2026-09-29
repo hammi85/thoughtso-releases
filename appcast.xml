@@ -23,7 +23,7 @@
                 </ul>
             ]]></description>
             <pubDate>Tue, 29 Sep 2026 05:08:54 +0000</pubDate>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
             <enclosure
                 url="https://github.com/hammi85/thoughtso-releases/releases/download/v2.3.0/ThoughtSo-2.3.0.dmg"
                 sparkle:version="17"
