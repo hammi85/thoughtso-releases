@@ -5,6 +5,29 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+            <title>Version 2.4.2</title>
+            <description><![CDATA[
+                <h3>ThoughtSo 2.4.2</h3>
+                <ul>
+                    <li>Optimization modes are now called presets, with clearer names: Clean up, Technical, Smooth flow, and Structured.</li>
+                    <li>Settings &gt; Dictation has one preset picker, including your own presets, with New and Edit right there.</li>
+                    <li>The picker always shows the preset in use. ThoughtSo no longer switches presets by itself in code editors or document apps.</li>
+                    <li>The Next preset shortcut (Option-M) now includes Off after the last preset. Press it again to start at the first preset.</li>
+                    <li>On the small Polish and 2B models, all built-in presets do a plain cleanup. Your own presets work everywhere.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Thu, 01 Oct 2026 15:14:30 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/hammi85/thoughtso-releases/releases/download/v2.4.2/ThoughtSo-2.4.2.dmg"
+                sparkle:version="20"
+                sparkle:shortVersionString="2.4.2"
+                sparkle:edSignature="vBAmhNkAIfBL7kj3fqjVyHZhVMzwdcuQXQqotjBBsFRtlQDLgoBXaej6vzqG7STC/Bm11lpQQGKhWKPTNqLFCA=="
+                length="29987888"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.4.0</title>
             <description><![CDATA[
                 <h3>ThoughtSo 2.4.0</h3>
