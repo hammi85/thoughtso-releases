@@ -5,6 +5,33 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+            <title>Version 2.4.0</title>
+            <description><![CDATA[
+                <h3>ThoughtSo 2.4.0</h3>
+                <ul>
+                    <li>Spoken skills in dictation: say &quot;skill&quot; at the start or end of a dictation to run a skill on the rest, for example &quot;Skill translate to English. Hej, vi ses på fredag.&quot; or &quot;Okay, use the ramble skill. ...&quot; Without the word &quot;skill&quot; at the start or end, dictation works as before. Pause briefly after the request so it is separated from your text. Skills you import yourself work the same way; their description tells ThoughtSo when to use them. New built-in skill: translate-to-english. Settings &gt; Skills &gt; Spoken skills turns it off.</li>
+                    <li>After a skill runs, ThoughtSo checks the result: if names, numbers, dates, e-mail addresses or links were added or dropped, nothing is pasted and you choose Insert, Copy or Copy original. A failed skill never pastes; the original stays in history.</li>
+                    <li>Loudspeakers: after Stop, lines in &quot;You&quot; that repeat what the other side said (picked up from your speakers) are removed from the meeting note.</li>
+                    <li>Optional echo cancellation for the meeting microphone (Settings &gt; Meetings &gt; Echo cancellation, off by default). If the Mac cannot start it, the normal microphone is used.</li>
+                    <li>The final meeting transcript is split into paragraphs within each speaker&#x27;s turn.</li>
+                    <li>Reusing the live transcript after Stop is on again, with fixes for short slices and the stream start.</li>
+                    <li>Fewer beachballs while clicking around the live transcript and the Meetings list during a recording.</li>
+                    <li>Optional live speaker labels for the other side during a meeting (Settings &gt; Meetings, off by default).</li>
+                    <li>Meeting traces now record machine load from the start of the recording.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Thu, 01 Oct 2026 06:44:26 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/hammi85/thoughtso-releases/releases/download/v2.4.0/ThoughtSo-2.4.0.dmg"
+                sparkle:version="18"
+                sparkle:shortVersionString="2.4.0"
+                sparkle:edSignature="fiW654AxVVD8V4+BBqblAs7XeAzNt6vSLDVy+6/hYfAAdo0G5M4LP1F4b2DzLvZsFGp6arM1ZwrXeBVUCGhSBg=="
+                length="29962296"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.3.0</title>
             <description><![CDATA[
                 <h3>ThoughtSo 2.3.0</h3>
