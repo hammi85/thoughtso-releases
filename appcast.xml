@@ -5,6 +5,26 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+            <title>Version 2.4.3</title>
+            <description><![CDATA[
+                <h3>ThoughtSo 2.4.3</h3>
+                <ul>
+                    <li>Dictated text now goes where your cursor is when it finishes, even if you switched apps while talking.</li>
+                    <li>To always paste back into the app where you started dictating, choose that option in Settings &gt; General &gt; Paste into.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Fri, 02 Oct 2026 09:14:30 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/hammi85/thoughtso-releases/releases/download/v2.4.3/ThoughtSo-2.4.3.dmg"
+                sparkle:version="21"
+                sparkle:shortVersionString="2.4.3"
+                sparkle:edSignature="VRYtKWaySrrP0D6nmADTdpyen20ifrqzXyp/kiDn/L967p1y9w3uvUAIw0NWRqRsd0OqvIkjpmpsbypzimoKCg=="
+                length="29992838"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.4.2</title>
             <description><![CDATA[
                 <h3>ThoughtSo 2.4.2</h3>
